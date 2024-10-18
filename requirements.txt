@@ -1,1 +1,2 @@
 pyspark==3.5.3
+apache-airflow-providers-apache-spark==4.1.5

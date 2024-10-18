@@ -101,8 +101,6 @@ def filter_null():
     spark.stop()
 
 def load_data():
-    """Downloads data from S3 and saves it into raw_data variable"""
-
     spark = SparkSession.builder.appName('vehicle_accidents').master("local[1]").getOrCreate()
     print('Loading CSV file')
 
