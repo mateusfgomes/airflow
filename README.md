@@ -14,13 +14,14 @@ Para executar este pipeline, é necessário ter o Apache Airflow configurado e e
 
 ## Instalação
 
-1. Instale o Apache Airflow seguindo a [documentação oficial em ambiente docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html).
-2. Configure a conexão com o sistema de arquivos (`file_conn`) para que o arquivo possa ser detectado na entrada.
-3. Clone este repositório:
+1. A versão do Python utilizada no projeto foi a 3.12
+2. Instale o Apache Airflow seguindo a [documentação oficial em ambiente docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html).
+3. Configure a conexão com o sistema de arquivos (`file_conn`) para que o arquivo possa ser detectado na entrada.
+4. Clone este repositório:
    ```bash
    git clone https://github.com/mateusfgomes/vehicle-accidents-pipeline.git
-4. De forma a criar todos diretórios necessários para a correta execução, antes de usar o comando `docker compose up`, realize um `docker compose build` para que o Dockerfile seja executado anteriormente.
-5. Realize o seguinte comando em um ambiente virtual:
+5. De forma a criar todos diretórios necessários para a correta execução, antes de usar o comando `docker compose up`, realize um `docker compose build` para que o Dockerfile seja executado anteriormente.
+6. Realize o seguinte comando em um ambiente virtual:
 `pip install -r requirements.txt`
 
 ### Estrutura de Arquivos
