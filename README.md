@@ -19,7 +19,7 @@ Para executar este pipeline, é necessário ter o Apache Airflow configurado e e
 3. Configure a conexão com o sistema de arquivos (`file_conn`) para que o arquivo possa ser detectado na entrada.
 4. Clone este repositório:
    ```bash
-   git clone https://github.com/mateusfgomes/vehicle-accidents-pipeline.git
+   git clone https://github.com/mateusfgomes/airflow-cobli.git
 5. De forma a criar todos diretórios necessários para a correta execução, antes de usar o comando `docker compose up`, realize um `docker compose build` para que o Dockerfile seja executado anteriormente.
 6. Realize o seguinte comando em um ambiente virtual:
 `pip install -r requirements.txt`
