@@ -27,11 +27,11 @@ Para executar este pipeline, é necessário ter o Apache Airflow configurado e e
 * `dags/`: Contém o arquivo principal da DAG.
 * `scripts/`: Contém os scripts Python utilizados nas tarefas do pipeline.
 
-### Exploração do dataset (Databricks - extra)
+## Exploração do dataset (Databricks - extra)
 
 Antes de realizar todas as transformações necessárias, e posterior implementação das dags no airflow, foi realizada uma exploração do conjunto de dados por meio da plataforma Databricks. Dessa forma, foi possível extrair insights melhores sobre o tema que os dados tratavam, e obter um panorama mais claro em relação a limpeza e estruturação dos dados. Tal notebook do databricks encontra-se disponível no repositório.
 
-### Execução das Tasks
+## Execução das Tasks
 
 ![Fluxo de Execução do Pipeline](./logs_images/dag_ran.png)
 
